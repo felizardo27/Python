@@ -1,0 +1,5 @@
+print('====== EX 015 ======')
+dias = int(input('Quantos dias o carro foi alugado: '))
+km = float(input('E quantos Km foram percorridos: '))
+p = (dias * 60) + (km * 0.15)
+print('O total a pagar é de R${:.2f}'.format(p))

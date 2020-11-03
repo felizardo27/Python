@@ -1,0 +1,5 @@
+print('====== EX 012 ======')
+print('Faça um algoritmo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.')
+pc = float(input('Digite o preço do produto sem deconto: R$'))
+npc = pc - (pc * 5 / 100)
+print('O valor do produto sem desconto é R${:.2f}\nE com o desconto de 5% é igual a R${:.2f}'.format(pc, npc))
